@@ -1,5 +1,6 @@
-# importing dependencies and setting initial config
+# package: http://web.mit.edu/insong/www/pdf/rpackage_instructions.pdf
 
+# importing dependencies and setting initial config
 options(java.parameters = "-Xmx4g")     # assign 2GB max of heap memory size
 library("bartMachine")                  # import package "bartMachine", which provides an implementation of the BART algorithm
 set_bart_machine_num_cores(2)           # assign 2 cores to be used by the implementation of Gibbs sampler of "bartMachine"
